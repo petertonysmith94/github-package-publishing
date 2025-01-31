@@ -1,0 +1,16 @@
+{
+  "name": "@test-ts/a",
+  "version": "1.0.0",
+  "repository": "https://github.com/petertonysmith94/github-package-publishing",
+  "packageManager": "pnpm@9.4.0",
+  "main": "dist/main.js",
+  "module": "dist/main.mjs",
+  "exports": {
+    "require": "./dist/main.js",
+    "import": "./dist/main.mjs"
+  },
+
+  "scripts": {
+    "build": "tsup"
+  }
+}
