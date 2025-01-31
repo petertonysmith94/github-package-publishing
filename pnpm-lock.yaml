@@ -10,10 +10,13 @@ importers:
     devDependencies:
       tsup:
         specifier: ^8.3.6
-        version: 8.3.6
+        version: 8.3.6(typescript@5.7.3)
       turbo:
         specifier: ^2.3.4
         version: 2.3.4
+      typescript:
+        specifier: ^5.7.3
+        version: 5.7.3
 
   packages/a: {}
 
@@ -617,6 +620,11 @@ packages:
     resolution: {integrity: sha512-1kiLO5C0Okh5ay1DbHsxkPsw9Sjsbjzm6cF85CpWjR0BIyBFNDbKqtUyqGADRS1dbbZoQanJZVj4MS5kk8J42Q==}
     hasBin: true
 
+  typescript@5.7.3:
+    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   webidl-conversions@4.0.2:
     resolution: {integrity: sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==}
 
@@ -1058,7 +1066,7 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  tsup@8.3.6:
+  tsup@8.3.6(typescript@5.7.3):
     dependencies:
       bundle-require: 5.1.0(esbuild@0.24.2)
       cac: 6.7.14
@@ -1076,6 +1084,8 @@ snapshots:
       tinyexec: 0.3.2
       tinyglobby: 0.2.10
       tree-kill: 1.2.2
+    optionalDependencies:
+      typescript: 5.7.3
     transitivePeerDependencies:
       - jiti
       - supports-color
@@ -1108,6 +1118,8 @@ snapshots:
       turbo-linux-arm64: 2.3.4
       turbo-windows-64: 2.3.4
       turbo-windows-arm64: 2.3.4
+
+  typescript@5.7.3: {}
 
   webidl-conversions@4.0.2: {}
 
