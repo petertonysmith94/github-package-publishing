@@ -1,5 +1,5 @@
 {
-  "name": "github-package-publishing",
+  "name": "@test-ts/github-package-publishing",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
