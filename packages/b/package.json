@@ -1,6 +1,6 @@
 {
   "name": "@petertonysmith94/b",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "https://github.com/petertonysmith94/github-package-publishing",
   "packageManager": "pnpm@9.4.0",
   "main": "dist/main.js",
