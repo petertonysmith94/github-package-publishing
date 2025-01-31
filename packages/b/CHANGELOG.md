@@ -1,4 +1,4 @@
-# @petertonysmith94/b
+# @petertonysmith94/@fuels-ts/b
 
 ## 1.0.2
 
