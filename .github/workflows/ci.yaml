@@ -31,7 +31,7 @@ jobs:
       # - name: Create .npmrc
       #   run: |
       #     cat << EOF > "$HOME/.npmrc"
-      #       @test-ts:registry=https://npm.pkg.github.com
+      #       @petertonysmith94:registry=https://npm.pkg.github.com
       #     EOF
 
       - name: Publish packages
