@@ -1,5 +1,11 @@
 # @petertonysmith94/a
 
+## 2.0.0
+
+### Major Changes
+
+- 2758107: test
+
 ## 1.0.2
 
 ### Patch Changes
